@@ -1,6 +1,6 @@
 {
-  "version": "0.4.26",
+  "version": "0.4.27",
   "notes": "- Silent in-app updates: install without an installer window or admin/UAC prompt\n- New: 6-band multiband compressor stock effect\n- New: unified Width device (Haas + M/S) with Mono Below\n- Reverb post-EQ HP/LP now span the full 20 Hz - 20 kHz range",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.26/DeltaHost-0.4.26-macOS.zip", "sha256": "a7995c9ca1b9bf3d237d043abff8af3741e057cde9b0f60228a3a45fa79c92fb" },
-  "win": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.26/DeltaHost-0.4.26-Windows.zip", "sha256": "" }
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.27/DeltaHost-0.4.27-macOS.zip", "sha256": "18154769b9d0472a12dcf90b4e4bb41f95d660eb2fdbffd38351f4cbb9bffa57" },
+  "win": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.27/DeltaHost-0.4.27-Windows.zip", "sha256": "" }
 }
