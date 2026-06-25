@@ -1,5 +1,16 @@
 {
   "version": "0.4.33",
   "notes": "- Tutorial: corrected the Separator split colour key (the Difference trace is yellow, not pink)",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.33/DeltaHost-0.4.33-macOS.zip", "sha256": "3dcf9c9598d8bf134acfe7d7fcdb1ac146076fdc14eb591bca71a0b8af993510" }
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.33/DeltaHost-0.4.33-macOS.zip",
+    "sha256": "3dcf9c9598d8bf134acfe7d7fcdb1ac146076fdc14eb591bca71a0b8af993510"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.33/DeltaHost-0.4.33-Windows.exe",
+    "sha256": "c2014bb08d6320a112980440fa88e25c0535ffe00a937c16ddbb114b15e21ef3"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.33/DeltaHost-0.4.33-Windows.zip",
+    "sha256": "5195cfe2a224385c1e888d3fe8008c2c445523c536b4f4e5e064f405dcda790c"
+  }
 }
