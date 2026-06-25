@@ -1,5 +1,16 @@
 {
   "version": "0.4.32",
   "notes": "- Windows: DeltaHost now installs to the standard VST3 folder (C:\\Program Files\\Common Files\\VST3) so Ableton and all DAWs detect it automatically\n- Windows updates now run through the installer with a single approval prompt\n- Reliability improvements",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.32/DeltaHost-0.4.32-macOS.zip", "sha256": "43a790f04740dd2ca6fa5e5038da8ece2b9776aaca2bfffcf5ea3c42bb99cff5" }
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.32/DeltaHost-0.4.32-macOS.zip",
+    "sha256": "43a790f04740dd2ca6fa5e5038da8ece2b9776aaca2bfffcf5ea3c42bb99cff5"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.32/DeltaHost-0.4.32-Windows.exe",
+    "sha256": "e51e7ce2091f9e02c3463e1e5a7660eacec6be28488170404d674f09eddeca36"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.32/DeltaHost-0.4.32-Windows.zip",
+    "sha256": "9215b7103a486c9508f87def645fdd73665c60857e6873a0917075e407fce311"
+  }
 }
