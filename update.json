@@ -1,12 +1,5 @@
 {
-  "version": "0.4.31",
-  "notes": "- New EQ-style multiband compressor: frequency spectrum with live analyzer, draggable per-band handles, per-band mute/solo/bypass, live gain-reduction metering, and makeup gain from -24 to +24 dB\n- Licensing with a 14-day free trial and in-plugin key activation\n- Send Feedback: report bugs or share ideas right from inside the plugin\n- Factory Presets: a built-in category of ready-to-use presets\n- Tutorial and About screen improvements",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.31/DeltaHost-0.4.31-macOS.zip",
-    "sha256": "242d687ab44daa593010452b57c68bcfc201cf2320e3533a410ef4b560e2f1f4"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.31/DeltaHost-0.4.31-Windows.zip",
-    "sha256": "678294c7e55df3780907f02e94a01e185fc7e6333529e5ed2a36ca7a051f03c9"
-  }
+  "version": "0.4.32",
+  "notes": "- Windows: DeltaHost now installs to the standard VST3 folder (C:\\Program Files\\Common Files\\VST3) so Ableton and all DAWs detect it automatically\n- Windows updates now run through the installer with a single approval prompt\n- Reliability improvements",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.32/DeltaHost-0.4.32-macOS.zip", "sha256": "43a790f04740dd2ca6fa5e5038da8ece2b9776aaca2bfffcf5ea3c42bb99cff5" }
 }
