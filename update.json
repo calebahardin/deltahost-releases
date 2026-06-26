@@ -1,16 +1,5 @@
 {
-  "version": "0.4.34",
-  "notes": "- Fixed a crash that could occur when the plugin was reopened or reloaded in your DAW\n- Restored compatibility with macOS 11 (Big Sur) and later\n- Smoother re-installs on macOS (clears a stale previous install automatically)",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.34/DeltaHost-0.4.34-macOS.zip",
-    "sha256": "0ff34bebe80d0cca744373a11c5000df2420c8d15a5910206ccb3ca5fff48386"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.34/DeltaHost-0.4.34-Windows.exe",
-    "sha256": "db256b7e284d6cdd1ebd1f9fc42366c05885a90f47477844e22abd34e670db4d"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.34/DeltaHost-0.4.34-Windows.zip",
-    "sha256": "5197684479fee77aca16bb015caf71bfab721affe215c00835eca66f9e58c121"
-  }
+  "version": "0.4.35",
+  "notes": "- Fixed: DeltaHost's external sidechain input now appears in Logic Pro's Side Chain menu (and other hosts) on update, without needing a manual plug-in rescan",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-macOS.zip", "sha256": "6bda5349d2925c79eacf898e17228efe0d4496bf86c2cec5bad4276311155708" }
 }
