@@ -1,5 +1,16 @@
 {
   "version": "0.4.35",
   "notes": "- Fixed: DeltaHost's external sidechain input now appears in Logic Pro's Side Chain menu (and other hosts) on update, without needing a manual plug-in rescan",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-macOS.zip", "sha256": "6bda5349d2925c79eacf898e17228efe0d4496bf86c2cec5bad4276311155708" }
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-macOS.zip",
+    "sha256": "6bda5349d2925c79eacf898e17228efe0d4496bf86c2cec5bad4276311155708"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-Windows.exe",
+    "sha256": "2a5aee9c65492ecf8b1f33bfffd7031d38b0e0d24e93cecf7b6a9dc8e92f15cc"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-Windows.zip",
+    "sha256": "5264a437d953bf68058369594724df11fc7d789533c4c555c6249aa7303e8699"
+  }
 }
