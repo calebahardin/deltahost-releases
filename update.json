@@ -1,16 +1,5 @@
 {
-  "version": "0.4.35",
-  "notes": "- Fixed: DeltaHost's external sidechain input now appears in Logic Pro's Side Chain menu (and other hosts) on update, without needing a manual plug-in rescan",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-macOS.zip",
-    "sha256": "6bda5349d2925c79eacf898e17228efe0d4496bf86c2cec5bad4276311155708"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-Windows.exe",
-    "sha256": "2a5aee9c65492ecf8b1f33bfffd7031d38b0e0d24e93cecf7b6a9dc8e92f15cc"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.35/DeltaHost-0.4.35-Windows.zip",
-    "sha256": "5264a437d953bf68058369594724df11fc7d789533c4c555c6249aa7303e8699"
-  }
+  "version": "0.4.36",
+  "notes": "- New: save and recall your own presets on every built-in effect (EQ, compressor, multiband, etc.)\n- Multiband compressor: per-band external sidechain, wider crossover range (20 Hz - 20 kHz), controls now match the selected band's color, 25 ms default release, and cleaner 2-decimal readouts\n- UI polish and fixes",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.36/DeltaHost-0.4.36-macOS.zip", "sha256": "f4f13cf32d32bbd56ca2c2f3eba683ebea5cc8125a51062a8dd9f650a93f00aa" }
 }
