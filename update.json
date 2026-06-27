@@ -1,5 +1,16 @@
 {
   "version": "0.4.36",
   "notes": "- New: save and recall your own presets on every built-in effect (EQ, compressor, multiband, etc.)\n- Multiband compressor: per-band external sidechain, wider crossover range (20 Hz - 20 kHz), controls now match the selected band's color, 25 ms default release, and cleaner 2-decimal readouts\n- UI polish and fixes",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.36/DeltaHost-0.4.36-macOS.zip", "sha256": "f4f13cf32d32bbd56ca2c2f3eba683ebea5cc8125a51062a8dd9f650a93f00aa" }
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.36/DeltaHost-0.4.36-macOS.zip",
+    "sha256": "f4f13cf32d32bbd56ca2c2f3eba683ebea5cc8125a51062a8dd9f650a93f00aa"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.36/DeltaHost-0.4.36-Windows.exe",
+    "sha256": "fc225604b768ee253de41c4a4526c6726aae1b2ec08846234bfef4fa652cd3f4"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.36/DeltaHost-0.4.36-Windows.zip",
+    "sha256": "5821eb3c9e7c649743e469a9b8e8e6dedf8536a9d9482c114347c7d75e58c3d8"
+  }
 }
