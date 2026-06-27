@@ -1,16 +1,5 @@
 {
-  "version": "1.0.0",
-  "notes": "- Introducing DT Effects — 7 free standalone plugins from the DeltaHost stock effects: DT EQ, DT MB, DT Comp, DT Verb, DT Width, DT Trance Gate, and DT Exciter.\n- Each runs as a Standalone app, VST3, and AU, with tempo sync and external sidechain where applicable.\n- Built-in updater keeps the whole bundle current.",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.0/DT-Effects-1.0.0-macOS.zip",
-    "sha256": "5efd39736d5adf9f1b0c08dd1191c3164969589d95e3918b6b489b23b74741bd"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.0/DT-Effects-1.0.0-Windows.exe",
-    "sha256": "27434149dca4103b551bcbde212492c39cd8f3f7ddcee0d7f979a53d9fb89685"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.0/DT-Effects-1.0.0-Windows.zip",
-    "sha256": "a9d82de07a9098e01b311a0bbcc8c72a828579b8a04a53b1bc79da7beab74639"
-  }
+  "version": "1.0.1",
+  "notes": "- Master Bypass on every DT plugin \u2014 a real host bypass parameter plus a BYPASS toggle in the standalone header; bypassed audio passes through dry.\n- Undo / Redo in the standalone editor header (UNDO / REDO), backed by a per-effect undo history so parameter tweaks are reversible.\n- Check for Updates button (CHECK) for an on-demand update check, alongside the existing automatic on-launch check.\n- Fixed numeric readouts so every dial value (multiband threshold/ratio/attack/release/makeup, GR, and the other effects' dials) terminates in exactly 2 decimal places.\n- Safer self-update: the macOS in-app updater now stages, verifies and atomically swaps each bundle with rollback, so an interrupted update can't leave a broken plugin.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.1/DT-Effects-1.0.1-macOS.zip", "sha256": "9e7552a3ba114cf8c21d60a11bce23e3f6f8571302ca71484591c834bb74fcb4" }
 }
