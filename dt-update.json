@@ -1,5 +1,16 @@
 {
   "version": "1.0.0",
-  "notes": "- Introducing DT Effects \u2014 7 free standalone plugins from the DeltaHost stock effects: DT EQ, DT MB, DT Comp, DT Verb, DT Width, DT Trance Gate, and DT Exciter.\n- Each runs as a Standalone app, VST3, and AU, with tempo sync and external sidechain where applicable.\n- Built-in updater keeps the whole bundle current.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.0/DT-Effects-1.0.0-macOS.zip", "sha256": "5efd39736d5adf9f1b0c08dd1191c3164969589d95e3918b6b489b23b74741bd" }
+  "notes": "- Introducing DT Effects — 7 free standalone plugins from the DeltaHost stock effects: DT EQ, DT MB, DT Comp, DT Verb, DT Width, DT Trance Gate, and DT Exciter.\n- Each runs as a Standalone app, VST3, and AU, with tempo sync and external sidechain where applicable.\n- Built-in updater keeps the whole bundle current.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.0/DT-Effects-1.0.0-macOS.zip",
+    "sha256": "5efd39736d5adf9f1b0c08dd1191c3164969589d95e3918b6b489b23b74741bd"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.0/DT-Effects-1.0.0-Windows.exe",
+    "sha256": "27434149dca4103b551bcbde212492c39cd8f3f7ddcee0d7f979a53d9fb89685"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.0/DT-Effects-1.0.0-Windows.zip",
+    "sha256": "a9d82de07a9098e01b311a0bbcc8c72a828579b8a04a53b1bc79da7beab74639"
+  }
 }
