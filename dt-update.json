@@ -1,16 +1,5 @@
 {
-  "version": "1.0.1",
-  "notes": "- Master Bypass on every DT plugin — a real host bypass parameter plus a BYPASS toggle in the standalone header; bypassed audio passes through dry.\n- Undo / Redo in the standalone editor header (UNDO / REDO), backed by a per-effect undo history so parameter tweaks are reversible.\n- Check for Updates button (CHECK) for an on-demand update check, alongside the existing automatic on-launch check.\n- Fixed numeric readouts so every dial value (multiband threshold/ratio/attack/release/makeup, GR, and the other effects' dials) terminates in exactly 2 decimal places.\n- Safer self-update: the macOS in-app updater now stages, verifies and atomically swaps each bundle with rollback, so an interrupted update can't leave a broken plugin.",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.1/DT-Effects-1.0.1-macOS.zip",
-    "sha256": "9e7552a3ba114cf8c21d60a11bce23e3f6f8571302ca71484591c834bb74fcb4"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.1/DT-Effects-1.0.1-Windows.exe",
-    "sha256": "18c8607c29ac76dafbc8c9e8b4ebffb9d887662422559b474d161c6eee8ae816"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.1/DT-Effects-1.0.1-Windows.zip",
-    "sha256": "5dba73a29f360979f8b29c073bb7b77c86488e990c8eb3a82cd7d3c20546b367"
-  }
+  "version": "1.0.2",
+  "notes": "- Fixed dial readouts: every value now shows exactly 2 decimals with the unit once (e.g. \"20.00 ms\", \"0.00 dB\"), and the ratio reads correctly as \"2.00:1\" \u2014 replacing the 1.0.1 \"20 ms ms\" / \"2: 1: 1\" mangling.\n- Standalone control bar now visible: BYPASS, UNDO, REDO and CHECK FOR UPDATES chips show in the editor header next to PRESETS/SAVE on every DT plugin (they were laid out with zero bounds in 1.0.1).\n- Master Bypass \u2014 a real host bypass parameter plus the BYPASS toggle; bypassed audio passes through dry.\n- Undo / Redo \u2014 backed by a per-effect undo history so parameter tweaks are reversible.\n- Check for Updates \u2014 on-demand update check (CHECK), alongside the existing automatic on-launch check.\n- Safer self-update: the macOS in-app updater stages, verifies and atomically swaps each bundle with rollback, so an interrupted update can't leave a broken plugin.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.2/DT-Effects-1.0.2-macOS.zip", "sha256": "64e7ef64697fcd24b561edaff64e58028173dad024dc51c5b17202c03853d88b" }
 }
