@@ -1,5 +1,16 @@
 {
   "version": "0.4.37",
   "notes": "- Fixed: in-app updates on macOS could leave the plugin unfound by your DAW; updates now install atomically with verification and rollback\n- Fixed: \"Scanner not found\" - the plugin scanner is now bundled and installed",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.37/DeltaHost-0.4.37-macOS.zip", "sha256": "7cde1f8d86b3e020dc32c630fb5b03593d7e7639417c47f76ca547f0b1fa3d13" }
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.37/DeltaHost-0.4.37-macOS.zip",
+    "sha256": "7cde1f8d86b3e020dc32c630fb5b03593d7e7639417c47f76ca547f0b1fa3d13"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.37/DeltaHost-0.4.37-Windows.exe",
+    "sha256": "34a86ac333065d410b7c4bcb78dc5c154d4c660232fcaca75a190936081e12ad"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.37/DeltaHost-0.4.37-Windows.zip",
+    "sha256": "31684b81e6cadf5a6a0e58fdea12323fc845bf13b8142f740a2dc1bd583f6f50"
+  }
 }
