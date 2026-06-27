@@ -1,5 +1,16 @@
 {
   "version": "1.0.2",
-  "notes": "- Fixed dial readouts: every value now shows exactly 2 decimals with the unit once (e.g. \"20.00 ms\", \"0.00 dB\"), and the ratio reads correctly as \"2.00:1\" \u2014 replacing the 1.0.1 \"20 ms ms\" / \"2: 1: 1\" mangling.\n- Standalone control bar now visible: BYPASS, UNDO, REDO and CHECK FOR UPDATES chips show in the editor header next to PRESETS/SAVE on every DT plugin (they were laid out with zero bounds in 1.0.1).\n- Master Bypass \u2014 a real host bypass parameter plus the BYPASS toggle; bypassed audio passes through dry.\n- Undo / Redo \u2014 backed by a per-effect undo history so parameter tweaks are reversible.\n- Check for Updates \u2014 on-demand update check (CHECK), alongside the existing automatic on-launch check.\n- Safer self-update: the macOS in-app updater stages, verifies and atomically swaps each bundle with rollback, so an interrupted update can't leave a broken plugin.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.2/DT-Effects-1.0.2-macOS.zip", "sha256": "64e7ef64697fcd24b561edaff64e58028173dad024dc51c5b17202c03853d88b" }
+  "notes": "- Fixed dial readouts: every value now shows exactly 2 decimals with the unit once (e.g. \"20.00 ms\", \"0.00 dB\"), and the ratio reads correctly as \"2.00:1\" — replacing the 1.0.1 \"20 ms ms\" / \"2: 1: 1\" mangling.\n- Standalone control bar now visible: BYPASS, UNDO, REDO and CHECK FOR UPDATES chips show in the editor header next to PRESETS/SAVE on every DT plugin (they were laid out with zero bounds in 1.0.1).\n- Master Bypass — a real host bypass parameter plus the BYPASS toggle; bypassed audio passes through dry.\n- Undo / Redo — backed by a per-effect undo history so parameter tweaks are reversible.\n- Check for Updates — on-demand update check (CHECK), alongside the existing automatic on-launch check.\n- Safer self-update: the macOS in-app updater stages, verifies and atomically swaps each bundle with rollback, so an interrupted update can't leave a broken plugin.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.2/DT-Effects-1.0.2-macOS.zip",
+    "sha256": "64e7ef64697fcd24b561edaff64e58028173dad024dc51c5b17202c03853d88b"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.2/DT-Effects-1.0.2-Windows.exe",
+    "sha256": "97d06bc47238e204704747f318d2eac367675f84871f476cb9611653b2bfd32a"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.2/DT-Effects-1.0.2-Windows.zip",
+    "sha256": "afd9cc01f62474cb2ed1dc6ae80d7d737038d4fbf2839397fbd0a5e4894a51a5"
+  }
 }
