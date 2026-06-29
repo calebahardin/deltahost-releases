@@ -1,5 +1,16 @@
 {
   "version": "0.4.38",
   "notes": "- New: the delay can run a different rhythm per ear - turn off Link L/R to set independent left/right sync divisions (e.g. 1/4 left, 1/8 right)\n- Fixed: in the compressor the Sidechain Filter button was hidden behind the Presets bar\n- Fixed: effect dial readouts now show two decimals correctly (no duplicated units, correct ratio)",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.38/DeltaHost-0.4.38-macOS.zip", "sha256": "b9a49e3e61e5d147a91f82fb71821575508b360f30ee2eb3573fb3a19bf7b460" }
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.38/DeltaHost-0.4.38-macOS.zip",
+    "sha256": "b9a49e3e61e5d147a91f82fb71821575508b360f30ee2eb3573fb3a19bf7b460"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.38/DeltaHost-0.4.38-Windows.exe",
+    "sha256": "cfa278af072c6b6eb940fd20b6cbf42e2feb34ed2115166b63161c00059b1ad1"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.38/DeltaHost-0.4.38-Windows.zip",
+    "sha256": "e5955ddd7bb4fb6734b0ee5a35aceab010a02d1df75f277619cb3f313cb97995"
+  }
 }
