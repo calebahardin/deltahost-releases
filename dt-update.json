@@ -1,5 +1,16 @@
 {
   "version": "1.0.3",
-  "notes": "- Fixed the standalone header: on narrower effects (notably DT Width) and effects with long titles (e.g. \"Multiband Exciter\"), the plugin title no longer runs underneath the BYPASS / UNDO / REDO / CHECK and PRESETS / SAVE control bar \u2014 the title is now always fully visible with its own clear space.\n- The fix is robust for any title length: each editor sizes itself so the title never collides with the control bar, and the title also hard-clips to its own region as a safety net.\n- Everything from 1.0.2 remains: 2-decimal dial readouts (correct \"2.00:1\" ratio), the visible BYPASS / UNDO / REDO / CHECK control bar, master Bypass, Undo/Redo history, on-demand Check for Updates, and the safer atomic self-update.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.3/DT-Effects-1.0.3-macOS.zip", "sha256": "1e41441001616fc13b4749ee30ed5d33ea2c460ee64fa0246d4093ff76d68883" }
+  "notes": "- Fixed the standalone header: on narrower effects (notably DT Width) and effects with long titles (e.g. \"Multiband Exciter\"), the plugin title no longer runs underneath the BYPASS / UNDO / REDO / CHECK and PRESETS / SAVE control bar — the title is now always fully visible with its own clear space.\n- The fix is robust for any title length: each editor sizes itself so the title never collides with the control bar, and the title also hard-clips to its own region as a safety net.\n- Everything from 1.0.2 remains: 2-decimal dial readouts (correct \"2.00:1\" ratio), the visible BYPASS / UNDO / REDO / CHECK control bar, master Bypass, Undo/Redo history, on-demand Check for Updates, and the safer atomic self-update.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.3/DT-Effects-1.0.3-macOS.zip",
+    "sha256": "1e41441001616fc13b4749ee30ed5d33ea2c460ee64fa0246d4093ff76d68883"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.3/DT-Effects-1.0.3-Windows.exe",
+    "sha256": "1f48add547126a6273ce3d4bae4b584952d1918b17ed530feb6a9048026e1a80"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.3/DT-Effects-1.0.3-Windows.zip",
+    "sha256": "573d15de710ffb2a2baeb247e3fcb650402fa42a2f0ed06b7d289eb5bdb54e6c"
+  }
 }
