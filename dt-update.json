@@ -1,5 +1,16 @@
 {
   "version": "1.0.4",
-  "notes": "- DT Exciter: complete multiband exciter overhaul \u2014 6 bands, per-band Character, spectrum analyzer, bold musical excitation\n- Standalone: bypass, undo/redo, check-for-updates, gesture undo (Cmd+Z), header layout fixes\n- All DT effects: improved dial readouts, safer auto-update",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.4/DT-Effects-1.0.4-macOS.zip", "sha256": "a1c0907e832a66b2a59e3a471efbefa9ab3c74c66a87eaebdaad84a873813e24" }
+  "notes": "- DT Exciter: complete multiband exciter overhaul — 6 bands, per-band Character, spectrum analyzer, bold musical excitation\n- Standalone: bypass, undo/redo, check-for-updates, gesture undo (Cmd+Z), header layout fixes\n- All DT effects: improved dial readouts, safer auto-update",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.4/DT-Effects-1.0.4-macOS.zip",
+    "sha256": "a1c0907e832a66b2a59e3a471efbefa9ab3c74c66a87eaebdaad84a873813e24"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.4/DT-Effects-1.0.4-Windows.exe",
+    "sha256": "0209b5385437f9a56f18ea92a77871bf746e8964fc73423ccf0cced78093ab95"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.4/DT-Effects-1.0.4-Windows.zip",
+    "sha256": "b884bce0afa260779ac6973e5051bd5c88250ce45040d1d7fccad60036e809f7"
+  }
 }
