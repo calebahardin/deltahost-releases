@@ -1,5 +1,16 @@
 {
   "version": "0.4.39",
-  "notes": "- Multiband Exciter overhauled: 6 bands, per-band Character mode (Glow/Triode/Twin/Tape/Vintage), real-time spectrum analyzer, much stronger and more musical excitation\n- Delay: independent left/right sync divisions (Link L/R toggle)\n- Fixed: compressor Sidechain Filter button no longer hidden behind Presets bar\n- Fixed: effect dial readouts show two decimals correctly\n- Standalone undo: gesture-based (one drag = one undo) \u2014 applies to DT standalones in DT release",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.39/DeltaHost-0.4.39-macOS.zip", "sha256": "bc8439d49f0d3aea1af1e75222033297cc2df9972124b3c03eb9cdde0dc3833d" }
+  "notes": "- Multiband Exciter overhauled: 6 bands, per-band Character mode (Glow/Triode/Twin/Tape/Vintage), real-time spectrum analyzer, much stronger and more musical excitation\n- Delay: independent left/right sync divisions (Link L/R toggle)\n- Fixed: compressor Sidechain Filter button no longer hidden behind Presets bar\n- Fixed: effect dial readouts show two decimals correctly\n- Standalone undo: gesture-based (one drag = one undo) — applies to DT standalones in DT release",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.39/DeltaHost-0.4.39-macOS.zip",
+    "sha256": "bc8439d49f0d3aea1af1e75222033297cc2df9972124b3c03eb9cdde0dc3833d"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.39/DeltaHost-0.4.39-Windows.exe",
+    "sha256": "f382db77463a11a2be42972dbe74a0704b881ae2e5053ee6c9e7207afcd04370"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.39/DeltaHost-0.4.39-Windows.zip",
+    "sha256": "c17e9c97c1e863d7c54bc4ffb1936d7ffdfc8d4b0547eaf171c680453d628e5a"
+  }
 }
