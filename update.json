@@ -1,16 +1,5 @@
 {
-  "version": "0.4.39",
-  "notes": "- Multiband Exciter overhauled: 6 bands, per-band Character mode (Glow/Triode/Twin/Tape/Vintage), real-time spectrum analyzer, much stronger and more musical excitation\n- Delay: independent left/right sync divisions (Link L/R toggle)\n- Fixed: compressor Sidechain Filter button no longer hidden behind Presets bar\n- Fixed: effect dial readouts show two decimals correctly\n- Standalone undo: gesture-based (one drag = one undo) — applies to DT standalones in DT release",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.39/DeltaHost-0.4.39-macOS.zip",
-    "sha256": "bc8439d49f0d3aea1af1e75222033297cc2df9972124b3c03eb9cdde0dc3833d"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.39/DeltaHost-0.4.39-Windows.exe",
-    "sha256": "f382db77463a11a2be42972dbe74a0704b881ae2e5053ee6c9e7207afcd04370"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.39/DeltaHost-0.4.39-Windows.zip",
-    "sha256": "c17e9c97c1e863d7c54bc4ffb1936d7ffdfc8d4b0547eaf171c680453d628e5a"
-  }
+  "version": "0.4.43",
+  "notes": "- Distortion & Clipper: \"Match Loudness\" now moves the real Output dial as you drive harder, so perceived level stays steady; warmer, cleaner analog-style saturation with a DC blocker. Clipper Ceiling\u2194Output link is on by default.\n- Delay: louder and more Ableton-like \u2014 full-level first repeat and an equal-power dry/wet mix so the dry signal doesn't dip below 50% mix.\n- Multiband Exciter: click anywhere in a band to bypass its saturation (band still passes); cleaner high-band tone and stronger, more usable drive range.\n- Auto Filter: resonance now bottoms out at a true zero (no resonance) and defaults there.\n- New: \"Install DT Effects\u2026\" in the settings menu downloads and installs the full DuckTape effect set as DAW plug-ins (VST3, plus AU on macOS) \u2014 per-user, no admin.\n- Factory presets added across the stock effects.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.43/DeltaHost-0.4.43-macOS.zip", "sha256": "d95a87aafec7455eb0b2b00b8183a396e6cb29b78bbac912f4325bb9daab8f21" }
 }
