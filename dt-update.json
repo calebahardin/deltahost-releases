@@ -1,5 +1,16 @@
 {
   "version": "1.0.8",
-  "notes": "- DT effects now install as DAW plug-ins only (VST3 on Windows, VST3 + AU on macOS) \u2014 load them inside your DAW like any other stock effect. No more standalone desktop apps.\n- Windows: the full set of all 21 effects now installs (previously only a handful) into the system VST3 folder so Ableton Live & co. discover them.\n- Distortion & Clipper: \"Match Loudness\" now turns the real Output dial down/up as you drive harder, so perceived level stays steady; warmer, cleaner analog-style saturation with a DC blocker. Clipper Ceiling\u2194Output link is on by default.\n- Delay: louder and more Ableton-like \u2014 full-level first repeat and an equal-power dry/wet mix so the dry signal doesn't dip.\n- Multiband Exciter: click anywhere in a band to bypass its saturation (band still passes); cleaner high-band tone and stronger, more usable drive range.\n- Auto Filter: resonance now bottoms out at a true zero (no resonance) and defaults there.\n- Factory presets added across the stock effects.\n- Each plug-in checks for updates when it opens and shows an in-DAW banner when a new DT version is available.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-macOS.zip", "sha256": "46e208c371270b594f2d7179d833ff60e6b7e2e30618b3b07acac21017fb9e0e" }
+  "notes": "- DT effects now install as DAW plug-ins only (VST3 on Windows, VST3 + AU on macOS) — load them inside your DAW like any other stock effect. No more standalone desktop apps.\n- Windows: the full set of all 21 effects now installs (previously only a handful) into the system VST3 folder so Ableton Live & co. discover them.\n- Distortion & Clipper: \"Match Loudness\" now turns the real Output dial down/up as you drive harder, so perceived level stays steady; warmer, cleaner analog-style saturation with a DC blocker. Clipper Ceiling↔Output link is on by default.\n- Delay: louder and more Ableton-like — full-level first repeat and an equal-power dry/wet mix so the dry signal doesn't dip.\n- Multiband Exciter: click anywhere in a band to bypass its saturation (band still passes); cleaner high-band tone and stronger, more usable drive range.\n- Auto Filter: resonance now bottoms out at a true zero (no resonance) and defaults there.\n- Factory presets added across the stock effects.\n- Each plug-in checks for updates when it opens and shows an in-DAW banner when a new DT version is available.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-macOS.zip",
+    "sha256": "46e208c371270b594f2d7179d833ff60e6b7e2e30618b3b07acac21017fb9e0e"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-Windows.exe",
+    "sha256": "9bd9a4e532601f734aa5960c4e095136b718079ecfc7a9e41e056eadc39dfc82"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-Windows.zip",
+    "sha256": "d1bdc7c977e4f1b80bb8af4de8a512e1d4c670737e52c84a1dc13ee0687565c6"
+  }
 }
