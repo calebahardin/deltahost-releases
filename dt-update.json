@@ -1,16 +1,5 @@
 {
-  "version": "1.0.4",
-  "notes": "- DT Exciter: complete multiband exciter overhaul — 6 bands, per-band Character, spectrum analyzer, bold musical excitation\n- Standalone: bypass, undo/redo, check-for-updates, gesture undo (Cmd+Z), header layout fixes\n- All DT effects: improved dial readouts, safer auto-update",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.4/DT-Effects-1.0.4-macOS.zip",
-    "sha256": "a1c0907e832a66b2a59e3a471efbefa9ab3c74c66a87eaebdaad84a873813e24"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.4/DT-Effects-1.0.4-Windows.exe",
-    "sha256": "0209b5385437f9a56f18ea92a77871bf746e8964fc73423ccf0cced78093ab95"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.4/DT-Effects-1.0.4-Windows.zip",
-    "sha256": "b884bce0afa260779ac6973e5051bd5c88250ce45040d1d7fccad60036e809f7"
-  }
+  "version": "1.0.8",
+  "notes": "- DT effects now install as DAW plug-ins only (VST3 on Windows, VST3 + AU on macOS) \u2014 load them inside your DAW like any other stock effect. No more standalone desktop apps.\n- Windows: the full set of all 21 effects now installs (previously only a handful) into the system VST3 folder so Ableton Live & co. discover them.\n- Distortion & Clipper: \"Match Loudness\" now turns the real Output dial down/up as you drive harder, so perceived level stays steady; warmer, cleaner analog-style saturation with a DC blocker. Clipper Ceiling\u2194Output link is on by default.\n- Delay: louder and more Ableton-like \u2014 full-level first repeat and an equal-power dry/wet mix so the dry signal doesn't dip.\n- Multiband Exciter: click anywhere in a band to bypass its saturation (band still passes); cleaner high-band tone and stronger, more usable drive range.\n- Auto Filter: resonance now bottoms out at a true zero (no resonance) and defaults there.\n- Factory presets added across the stock effects.\n- Each plug-in checks for updates when it opens and shows an in-DAW banner when a new DT version is available.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-macOS.zip", "sha256": "46e208c371270b594f2d7179d833ff60e6b7e2e30618b3b07acac21017fb9e0e" }
 }
