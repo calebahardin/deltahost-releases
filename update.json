@@ -1,5 +1,16 @@
 {
   "version": "0.4.43",
-  "notes": "- Distortion & Clipper: \"Match Loudness\" now moves the real Output dial as you drive harder, so perceived level stays steady; warmer, cleaner analog-style saturation with a DC blocker. Clipper Ceiling\u2194Output link is on by default.\n- Delay: louder and more Ableton-like \u2014 full-level first repeat and an equal-power dry/wet mix so the dry signal doesn't dip below 50% mix.\n- Multiband Exciter: click anywhere in a band to bypass its saturation (band still passes); cleaner high-band tone and stronger, more usable drive range.\n- Auto Filter: resonance now bottoms out at a true zero (no resonance) and defaults there.\n- New: \"Install DT Effects\u2026\" in the settings menu downloads and installs the full DuckTape effect set as DAW plug-ins (VST3, plus AU on macOS) \u2014 per-user, no admin.\n- Factory presets added across the stock effects.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.43/DeltaHost-0.4.43-macOS.zip", "sha256": "d95a87aafec7455eb0b2b00b8183a396e6cb29b78bbac912f4325bb9daab8f21" }
+  "notes": "- Distortion & Clipper: \"Match Loudness\" now moves the real Output dial as you drive harder, so perceived level stays steady; warmer, cleaner analog-style saturation with a DC blocker. Clipper Ceiling↔Output link is on by default.\n- Delay: louder and more Ableton-like — full-level first repeat and an equal-power dry/wet mix so the dry signal doesn't dip below 50% mix.\n- Multiband Exciter: click anywhere in a band to bypass its saturation (band still passes); cleaner high-band tone and stronger, more usable drive range.\n- Auto Filter: resonance now bottoms out at a true zero (no resonance) and defaults there.\n- New: \"Install DT Effects…\" in the settings menu downloads and installs the full DuckTape effect set as DAW plug-ins (VST3, plus AU on macOS) — per-user, no admin.\n- Factory presets added across the stock effects.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.43/DeltaHost-0.4.43-macOS.zip",
+    "sha256": "d95a87aafec7455eb0b2b00b8183a396e6cb29b78bbac912f4325bb9daab8f21"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.43/DeltaHost-0.4.43-Windows.exe",
+    "sha256": "cc08a87585a538996f3b0ed638ea62de981047c887c8d0585b131fb1d5ba1807"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.43/DeltaHost-0.4.43-Windows.zip",
+    "sha256": "ebd40fd67d8ef032015d8de897592934e4979d2d9e61485c2584d03bfa48ac8b"
+  }
 }
