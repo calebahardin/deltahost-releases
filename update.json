@@ -1,5 +1,16 @@
 {
   "version": "0.4.46",
-  "notes": "- Reverb \u2014 random-pop fix: eliminated the intermittent pops/clicks that could occur on idle or paused tracks. The reverb now declares an honest tail length (so the host no longer sleeps the effect mid-ring), its spectrum analyzer runs fully lock-free off the audio thread, and its silence handling drains cleanly to true zero.\n- Reverb \u2014 engine overhaul: the feedback network was rebuilt with double the modal density for a smoother, denser, less \"metallic\" tail closer to high-end algorithmic reverbs, with decorrelated stereo output for cleaner lows and a softer onset.\n- Reverb \u2014 expanded preset library: a large, re-voiced set spanning air/ambience, small+big spaces, rooms, halls, plates, chambers, plus dedicated vocal and drum presets \u2014 every preset shaped with a low-cut/high-cut (and shelves) so it sits in a mix out of the box.\n- Undo / Redo: fixed undo over-shooting (reverting too many steps at once) and, inside a DAW, no longer hijacks the host's own Edit \u2192 Undo/Redo. Continuous knob drags collapse into a single undo step.\n- Multiband Compressor: loudness-match no longer floods the undo history, and auto-gain writes are throttled so Redo stays available.\n- Stability: a universal safety net on every built-in effect scrubs non-finite samples and hard-limits runaway levels, so nothing can produce an ear-damaging spike.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.46/DeltaHost-0.4.46-macOS.zip", "sha256": "841ccc7cd2248513cf0e30db2dc2e21bdc97218cc875d005eabd49bcdadc281d" }
+  "notes": "- Reverb — random-pop fix: eliminated the intermittent pops/clicks that could occur on idle or paused tracks. The reverb now declares an honest tail length (so the host no longer sleeps the effect mid-ring), its spectrum analyzer runs fully lock-free off the audio thread, and its silence handling drains cleanly to true zero.\n- Reverb — engine overhaul: the feedback network was rebuilt with double the modal density for a smoother, denser, less \"metallic\" tail closer to high-end algorithmic reverbs, with decorrelated stereo output for cleaner lows and a softer onset.\n- Reverb — expanded preset library: a large, re-voiced set spanning air/ambience, small+big spaces, rooms, halls, plates, chambers, plus dedicated vocal and drum presets — every preset shaped with a low-cut/high-cut (and shelves) so it sits in a mix out of the box.\n- Undo / Redo: fixed undo over-shooting (reverting too many steps at once) and, inside a DAW, no longer hijacks the host's own Edit → Undo/Redo. Continuous knob drags collapse into a single undo step.\n- Multiband Compressor: loudness-match no longer floods the undo history, and auto-gain writes are throttled so Redo stays available.\n- Stability: a universal safety net on every built-in effect scrubs non-finite samples and hard-limits runaway levels, so nothing can produce an ear-damaging spike.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.46/DeltaHost-0.4.46-macOS.zip",
+    "sha256": "841ccc7cd2248513cf0e30db2dc2e21bdc97218cc875d005eabd49bcdadc281d"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.46/DeltaHost-0.4.46-Windows.exe",
+    "sha256": "3be5bc213508e31c13d5fcf0edf4be01d349b6337011698eafcf0720a79f2126"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.46/DeltaHost-0.4.46-Windows.zip",
+    "sha256": "3c3a5b42761d33bcbcf072c519703b8dc647648c4a9c3dd29fe8247cf2a0a224"
+  }
 }
