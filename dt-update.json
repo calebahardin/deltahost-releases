@@ -1,16 +1,5 @@
 {
-  "version": "1.0.8",
-  "notes": "- DT effects now install as DAW plug-ins only (VST3 on Windows, VST3 + AU on macOS) — load them inside your DAW like any other stock effect. No more standalone desktop apps.\n- Windows: the full set of all 21 effects now installs (previously only a handful) into the system VST3 folder so Ableton Live & co. discover them.\n- Distortion & Clipper: \"Match Loudness\" now turns the real Output dial down/up as you drive harder, so perceived level stays steady; warmer, cleaner analog-style saturation with a DC blocker. Clipper Ceiling↔Output link is on by default.\n- Delay: louder and more Ableton-like — full-level first repeat and an equal-power dry/wet mix so the dry signal doesn't dip.\n- Multiband Exciter: click anywhere in a band to bypass its saturation (band still passes); cleaner high-band tone and stronger, more usable drive range.\n- Auto Filter: resonance now bottoms out at a true zero (no resonance) and defaults there.\n- Factory presets added across the stock effects.\n- Each plug-in checks for updates when it opens and shows an in-DAW banner when a new DT version is available.",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-macOS.zip",
-    "sha256": "46e208c371270b594f2d7179d833ff60e6b7e2e30618b3b07acac21017fb9e0e"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-Windows.exe",
-    "sha256": "9bd9a4e532601f734aa5960c4e095136b718079ecfc7a9e41e056eadc39dfc82"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.8/DT-Effects-1.0.8-Windows.zip",
-    "sha256": "d1bdc7c977e4f1b80bb8af4de8a512e1d4c670737e52c84a1dc13ee0687565c6"
-  }
+  "version": "1.0.11",
+  "notes": "- DT Reverb \u2014 random-pop fix: eliminated the intermittent pops/clicks that could occur on idle or paused tracks. The reverb now declares an honest tail length (so the host no longer sleeps the effect mid-ring), its spectrum analyzer runs fully lock-free off the audio thread, and its silence handling drains cleanly to true zero. DT Delay also declares an honest tail so long repeats never get cut.\n- DT Reverb \u2014 engine overhaul: the feedback network was rebuilt with double the modal density for a smoother, denser, less \"metallic\" tail, with decorrelated stereo output for cleaner lows and a softer onset.\n- DT Reverb \u2014 expanded preset library: a large, re-voiced set spanning air/ambience, small+big spaces, rooms, halls, plates, chambers, plus dedicated vocal and drum presets \u2014 each shaped with a low-cut/high-cut so it sits in a mix out of the box.\n- Undo / Redo: fixed undo over-shooting, and (inside a DAW) DT plug-ins no longer hijack the host's own Edit \u2192 Undo/Redo. Continuous knob drags collapse into a single undo step.\n- DT Multiband Compressor: loudness-match no longer floods the undo history; auto-gain writes are throttled so Redo stays available.\n- Stability: a universal safety net on every DT effect scrubs non-finite samples and hard-limits runaway levels, so nothing can produce an ear-damaging spike.\n- Each plug-in still checks for updates when it opens and shows an in-DAW banner when a new DT version is available.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.11/DT-Effects-1.0.11-macOS.zip", "sha256": "d37248363b243caaa241ac517b9245fc26698129dfbc08579c9cea3458c1dc62" }
 }
