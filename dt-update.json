@@ -1,5 +1,16 @@
 {
   "version": "1.0.13",
-  "notes": "- DT Ducker is now actually included. It was announced in 1.0.12 but accidentally left out of that installer and update \u2014 this release ships it. The Ducker is a drawable sidechain-pump: sketch the volume shape with movable start/middle/end points, shift-click the graph to add more, and bend any segment Ableton-style. Runs tempo-synced (quarter-note pump out of the box) or one-shot from an external sidechain input \u2014 feed it a kick and the pattern fires on every hit. Fresh instances open on the \"Caleb's Default\" pump.\n- Pro Tools (AAX): effects now appear under their proper insert-menu categories (Dynamics, EQ, Reverb, Modulation, etc.) instead of all under \"Other,\" and every effect shows its \"DT \u2026\" name (EQ, the M/S splitter, and the exciter previously dropped the prefix).\n- No other functional changes from 1.0.12 \u2014 same effects and sound.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.13/DT-Effects-1.0.13-macOS.zip", "sha256": "be5c9eb4571ba6e92354f2c1bf3750cd8b1bc29abea30e327477d30d86026ad5" }
+  "notes": "- DT Ducker is now actually included. It was announced in 1.0.12 but accidentally left out of that installer and update — this release ships it. The Ducker is a drawable sidechain-pump: sketch the volume shape with movable start/middle/end points, shift-click the graph to add more, and bend any segment Ableton-style. Runs tempo-synced (quarter-note pump out of the box) or one-shot from an external sidechain input — feed it a kick and the pattern fires on every hit. Fresh instances open on the \"Caleb's Default\" pump.\n- Pro Tools (AAX): effects now appear under their proper insert-menu categories (Dynamics, EQ, Reverb, Modulation, etc.) instead of all under \"Other,\" and every effect shows its \"DT …\" name (EQ, the M/S splitter, and the exciter previously dropped the prefix).\n- No other functional changes from 1.0.12 — same effects and sound.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.13/DT-Effects-1.0.13-macOS.zip",
+    "sha256": "be5c9eb4571ba6e92354f2c1bf3750cd8b1bc29abea30e327477d30d86026ad5"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.13/DT-Effects-1.0.13-Windows.exe",
+    "sha256": "3da4867ace3a84b88dbbdf6109bf413596f63ceb844bc67877a35458ff990be8"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.13/DT-Effects-1.0.13-Windows.zip",
+    "sha256": "101fdb63ee1231266f155f550b4083a76bbc87989b79c751a95a0a44783f3ce5"
+  }
 }
