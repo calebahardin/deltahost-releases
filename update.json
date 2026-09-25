@@ -1,5 +1,16 @@
 {
   "version": "0.4.53",
-  "notes": "# EXCESS 0.4.53\n\n**Transient Shaper \u2014 cleaner splits**\n- Rebuilt as a click-free transient/sustain split: both Attack and Sustain dials are\n  always live, and the bottom of either dial fully mutes that half so you can isolate\n  transients or sustain (great as an EXCESS Separator \u2014 the Difference chain gets the\n  clean complement for reverb). New \"Isolate Transients / Sustain\" presets.\n- Short lookahead removes the onset click on the isolated component and on the reverb send.\n\n**Dynamics / automation fixes**\n- Gate: click-free gain path + new **Range** control (how far it attenuates; defaults to full mute).\n- Clipper / Distortion output link no longer fights host automation when you automate the ceiling/drive.\n- Multiband Comp: auto loudness-match backs off gracefully when you automate Output.\n\n**Interface**\n- Preset **\u2039 / \u203a** browsing with the active preset name shown on the Presets button.\n- All pop-up dialogs (Save Preset, confirmations, errors, About) restyled on-brand and\n  centered over the plugin.",
-  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.53/DeltaHost-0.4.53-macOS.zip", "sha256": "3a0e035405719a2aaff9462bf95ce85312b025cef37375fe68bf72063769e19b" }
+  "notes": "# EXCESS 0.4.53\n\n**Transient Shaper — cleaner splits**\n- Rebuilt as a click-free transient/sustain split: both Attack and Sustain dials are\n  always live, and the bottom of either dial fully mutes that half so you can isolate\n  transients or sustain (great as an EXCESS Separator — the Difference chain gets the\n  clean complement for reverb). New \"Isolate Transients / Sustain\" presets.\n- Short lookahead removes the onset click on the isolated component and on the reverb send.\n\n**Dynamics / automation fixes**\n- Gate: click-free gain path + new **Range** control (how far it attenuates; defaults to full mute).\n- Clipper / Distortion output link no longer fights host automation when you automate the ceiling/drive.\n- Multiband Comp: auto loudness-match backs off gracefully when you automate Output.\n\n**Interface**\n- Preset **‹ / ›** browsing with the active preset name shown on the Presets button.\n- All pop-up dialogs (Save Preset, confirmations, errors, About) restyled on-brand and\n  centered over the plugin.",
+  "mac": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.53/DeltaHost-0.4.53-macOS.zip",
+    "sha256": "3a0e035405719a2aaff9462bf95ce85312b025cef37375fe68bf72063769e19b"
+  },
+  "winInstaller": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.53/DeltaHost-0.4.53-Windows.exe",
+    "sha256": "d983cfdd987b605ff43f9559adebe4043e16a60172ba3f38316bd067cb2a73f1"
+  },
+  "win": {
+    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.53/DeltaHost-0.4.53-Windows.zip",
+    "sha256": "95d185fd4dd540daa30d987fc34787b938d1b90bf725413f80854d43bf632129"
+  }
 }
