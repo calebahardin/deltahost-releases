@@ -1,16 +1,5 @@
 {
-  "version": "1.0.13",
-  "notes": "- DT Ducker is now actually included. It was announced in 1.0.12 but accidentally left out of that installer and update — this release ships it. The Ducker is a drawable sidechain-pump: sketch the volume shape with movable start/middle/end points, shift-click the graph to add more, and bend any segment Ableton-style. Runs tempo-synced (quarter-note pump out of the box) or one-shot from an external sidechain input — feed it a kick and the pattern fires on every hit. Fresh instances open on the \"Caleb's Default\" pump.\n- Pro Tools (AAX): effects now appear under their proper insert-menu categories (Dynamics, EQ, Reverb, Modulation, etc.) instead of all under \"Other,\" and every effect shows its \"DT …\" name (EQ, the M/S splitter, and the exciter previously dropped the prefix).\n- No other functional changes from 1.0.12 — same effects and sound.",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.13/DT-Effects-1.0.13-macOS.zip",
-    "sha256": "be5c9eb4571ba6e92354f2c1bf3750cd8b1bc29abea30e327477d30d86026ad5"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.13/DT-Effects-1.0.13-Windows.exe",
-    "sha256": "3da4867ace3a84b88dbbdf6109bf413596f63ceb844bc67877a35458ff990be8"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.13/DT-Effects-1.0.13-Windows.zip",
-    "sha256": "101fdb63ee1231266f155f550b4083a76bbc87989b79c751a95a0a44783f3ce5"
-  }
+  "version": "1.0.14",
+  "notes": "# DT Effects 1.0.14\n\n**DT Transient Shaper \u2014 cleaner splits**\n- Rebuilt as a click-free transient/sustain split: both Attack and Sustain dials are\n  always live, and the bottom of either dial fully mutes that half so you can isolate\n  transients or sustain. Short lookahead removes the onset click. New \"Isolate\n  Transients / Sustain\" presets.\n\n**Dynamics / automation fixes**\n- DT Gate: click-free gain path + new **Range** control (defaults to full mute).\n- DT Clipper / DT Distortion output link no longer fights host automation.\n- DT Multiband Comp: auto loudness-match backs off gracefully when you automate Output.\n\n**Interface**\n- Every pop-up dialog (Save Preset, confirmations, errors) restyled on-brand to match\n  the rest of the UI.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.14/DT-Effects-1.0.14-macOS.zip", "sha256": "60636307179bc860992115a95c18a32ec4ab55f813813adffd404d67074dfc23" }
 }
