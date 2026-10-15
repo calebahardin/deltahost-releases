@@ -1,16 +1,5 @@
 {
-  "version": "1.0.14",
-  "notes": "# DT Effects 1.0.14\n\n**DT Transient Shaper — cleaner splits**\n- Rebuilt as a click-free transient/sustain split: both Attack and Sustain dials are\n  always live, and the bottom of either dial fully mutes that half so you can isolate\n  transients or sustain. Short lookahead removes the onset click. New \"Isolate\n  Transients / Sustain\" presets.\n\n**Dynamics / automation fixes**\n- DT Gate: click-free gain path + new **Range** control (defaults to full mute).\n- DT Clipper / DT Distortion output link no longer fights host automation.\n- DT Multiband Comp: auto loudness-match backs off gracefully when you automate Output.\n\n**Interface**\n- Every pop-up dialog (Save Preset, confirmations, errors) restyled on-brand to match\n  the rest of the UI.",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.14/DT-Effects-1.0.14-macOS.zip",
-    "sha256": "60636307179bc860992115a95c18a32ec4ab55f813813adffd404d67074dfc23"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.14/DT-Effects-1.0.14-Windows.exe",
-    "sha256": "34f99b6f16784a1ff7b8e59f5e43bcf52d5963e96e890306f4488654ff0593a9"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.14/DT-Effects-1.0.14-Windows.zip",
-    "sha256": "edbecebd882aeb1145ea1cf7fa0c1594bc55885de4fe0809d062f0c89929d4a8"
-  }
+  "version": "1.0.15",
+  "notes": "# DT Effects 1.0.15\n\n**Visualizers**\n- **DT Tremolo:** fixed the waveform clipping off the bottom at higher Depth \u2014 the whole\n  wave now stays cleanly below the rate readout at any depth, with a subtle,\n  epilepsy-safe on-beat glow.\n- **DT Phaser:** brand-new \"Notch Field\" display \u2014 moving notches drift across a soft\n  spectrum field, clean and calm (no motion sickness), tracking the real sweep rate.\n- **DT Flanger:** fixed the high-end \"scrunch\" \u2014 the top of the sweep stays clear in motion.\n\n**Learn / dynamics**\n- **DT Comp & DT MB:** more accurate **Learn** (loudness-weighted analysis, slightly\n  longer learn window). DT MB **M/S/B** buttons now stay centered under each band as you\n  drag the crossovers, and a stray glyph on the Learn button is fixed.\n\n**Layout & fixes**\n- **DT EQ & DT Verb:** band dials and readouts are centered and no longer crowd the band\n  buttons or the band name.\n- **DT Auto Filter:** widened so the full \"Unipolar\"/\"Bipolar\" label is visible.\n- **DT Trance Gate:** custom step counts (e.g. 7 or 11) now loop cleanly instead of\n  restarting mid-cycle; 4/8/16/32 still lock to the downbeat.\n- **DT Exciter:** hardened against a rare runaway \"feedback\"-like roar when many bands\n  are driven hard (and against bad host samples) \u2014 no change to the normal sound.\n- Broader \"steer the eye\" layout polish across the DT standalone effects.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/dt-v1.0.15/DT-Effects-1.0.15-macOS.zip", "sha256": "471bf8712d359c04feb97e2d5e41c2832f1fa52bda6fe047418d0b8c7428a095" }
 }

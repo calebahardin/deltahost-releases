@@ -1,16 +1,5 @@
 {
-  "version": "0.4.53",
-  "notes": "# EXCESS 0.4.53\n\n**Transient Shaper — cleaner splits**\n- Rebuilt as a click-free transient/sustain split: both Attack and Sustain dials are\n  always live, and the bottom of either dial fully mutes that half so you can isolate\n  transients or sustain (great as an EXCESS Separator — the Difference chain gets the\n  clean complement for reverb). New \"Isolate Transients / Sustain\" presets.\n- Short lookahead removes the onset click on the isolated component and on the reverb send.\n\n**Dynamics / automation fixes**\n- Gate: click-free gain path + new **Range** control (how far it attenuates; defaults to full mute).\n- Clipper / Distortion output link no longer fights host automation when you automate the ceiling/drive.\n- Multiband Comp: auto loudness-match backs off gracefully when you automate Output.\n\n**Interface**\n- Preset **‹ / ›** browsing with the active preset name shown on the Presets button.\n- All pop-up dialogs (Save Preset, confirmations, errors, About) restyled on-brand and\n  centered over the plugin.",
-  "mac": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.53/DeltaHost-0.4.53-macOS.zip",
-    "sha256": "3a0e035405719a2aaff9462bf95ce85312b025cef37375fe68bf72063769e19b"
-  },
-  "winInstaller": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.53/DeltaHost-0.4.53-Windows.exe",
-    "sha256": "d983cfdd987b605ff43f9559adebe4043e16a60172ba3f38316bd067cb2a73f1"
-  },
-  "win": {
-    "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.53/DeltaHost-0.4.53-Windows.zip",
-    "sha256": "95d185fd4dd540daa30d987fc34787b938d1b90bf725413f80854d43bf632129"
-  }
+  "version": "0.4.54",
+  "notes": "# EXCESS 0.4.54\n\n**Visualizers**\n- **Tremolo:** fixed the waveform clipping off the bottom of the panel at higher Depth \u2014\n  the whole wave now stays cleanly below the rate readout at any depth, with a subtle,\n  epilepsy-safe on-beat glow.\n- **Phaser:** brand-new \"Notch Field\" display \u2014 moving notches drift across a soft\n  spectrum field so you can read the sweep at a glance; clean and calm (no motion\n  sickness), and it tracks the real sweep rate.\n- **Flanger:** fixed the high-end \"scrunch\" \u2014 the top of the sweep stays clear in motion.\n\n**Learn / dynamics**\n- **Compressor & Multiband Comp:** more accurate **Learn** (loudness-weighted analysis,\n  slightly longer learn window). Multiband **M/S/B** buttons now stay centered under each\n  band as you drag the crossovers, and a stray glyph on the Learn button is fixed.\n\n**Layout & fixes**\n- **EQ & Reverb:** band dials and their readouts are centered and no longer crowd the\n  band buttons or the band name.\n- **Auto Filter:** widened so the full \"Unipolar\"/\"Bipolar\" label is visible.\n- **Trance Gate:** custom step counts (e.g. 7 or 11) now loop cleanly instead of\n  restarting mid-cycle; 4/8/16/32 still lock to the downbeat.\n- **Multiband Exciter:** hardened against a rare runaway \"feedback\"-like roar when many\n  bands are driven hard (and against bad host samples) \u2014 no change to the normal sound.\n- Broader \"steer the eye\" layout polish across the DT standalone effects.",
+  "mac": { "url": "https://github.com/calebahardin/deltahost-releases/releases/download/v0.4.54/DeltaHost-0.4.54-macOS.zip", "sha256": "41be83ec0bfa9adca363cb7e27e2c795260bbaad28cb5491142a34fb14613467" }
 }
